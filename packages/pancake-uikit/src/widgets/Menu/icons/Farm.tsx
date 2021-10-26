@@ -1,7 +1,7 @@
 import React from "react";
 import Svg from "../../../components/Svg/Svg";
 import { SvgProps } from "../../../components/Svg/types";
-import farmsPng from "./farms.png";
+import farmsPng from "./farms.svg";
 
 const Icon: React.FC<SvgProps> = (props) => {
   return (

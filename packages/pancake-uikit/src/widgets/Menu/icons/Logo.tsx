@@ -10,8 +10,8 @@ interface LogoProps extends SvgProps {
 const Logo: React.FC<LogoProps> = ({ isDark, ...props }) => {
   const textColor = isDark ? "#FFFFFF" : "#000000";
   return (
-    <Svg viewBox="0 0 32 32" {...props}>
-        <image width="32" height="32" href={logoPng}/>
+    <Svg viewBox="0 0 195 34" {...props}>
+        <image width="195" height="34" href={logoPng}/>
     </Svg>
   );
 };
