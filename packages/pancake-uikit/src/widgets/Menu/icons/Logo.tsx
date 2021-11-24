@@ -1,7 +1,7 @@
 import React from "react";
 import Svg from "../../../components/Svg/Svg";
 import { SvgProps } from "../../../components/Svg/types";
-import logoPng from "./logo.png";
+import logoText from "./logo-text.png";
 
 interface LogoProps extends SvgProps {
   isDark: boolean;
@@ -10,8 +10,8 @@ interface LogoProps extends SvgProps {
 const Logo: React.FC<LogoProps> = ({ isDark, ...props }) => {
   const textColor = isDark ? "#FFFFFF" : "#000000";
   return (
-    <Svg viewBox="0 0 195 34" {...props}>
-        <image width="195" height="34" href={logoPng}/>
+    <Svg viewBox="0 0 160 34" {...props}>
+        <image width="160" height="34"href={logoText}/>
     </Svg>
   );
 };
